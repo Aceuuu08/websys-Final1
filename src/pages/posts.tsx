@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Typography, TextField, Button, IconButton, Card, CardContent } from '@material-ui/core';
+import { Container, Typography, TextField, Button, IconButton, Card, CardContent } from '@mui/material';
 import { Formik, Form, Field, FieldArray } from 'formik';
 import useSWR, { mutate } from 'swr';
 import axios from 'axios';
 import Main from '@/layout/mainLayout';
-import DeleteIcon from '@material-ui/icons/Delete';
+import DeleteIcon from '@mui/icons-material/Delete';
 import { useRouter } from 'next/router';
 
 const fetcher = (url: string) => axios.get(url).then(res => res.data);
