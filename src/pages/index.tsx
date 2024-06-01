@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   const { data, error } = useSWR<User>('/api/user', fetcher);
 
   if (error) return <div>Error loading user data: {error.message}</div>;
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <div>Loading....</div>;
 
   return (
     <Main>
