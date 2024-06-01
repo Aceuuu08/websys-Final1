@@ -1,0 +1,114 @@
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+html,
+body {
+  font-family: 'Inter', sans-serif; /* Assuming Inter font is loaded */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding: 1rem;
+  width: 100%;
+  background-color: #333; /* Change as needed */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  color: white; /* Change as needed */
+  text-decoration: none;
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Profile Section */
+.profile-section {
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Post */
+.post {
+  margin-bottom: 3rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post-content {
+  font-size: 1rem;
+  color: #333; /* Change as needed */
+}
+
+/* Profile Page */
+.profile-page {
+  margin-top: 2rem;
+}
+
+/* Profile Form */
+.profile-form {
+  margin-top: 2rem;
+}
+
+/* Profile Card */
+.profile-card {
+  margin-bottom: 2rem;
+}
+
+/* Posts Page */
+.posts-page {
+  margin-top: 2rem;
+}
+
+/* Posts Form */
+.posts-form {
+  margin-top: 2rem;
+}
+
+/* Posts Card */
+.posts-card {
+  margin-bottom: 2rem;
+}
+
+/* Post Form */
+.post-form {
+  margin-top: 1rem;
+}
+
+/* Post Input */
+.post-input {
+  margin-bottom: 1rem;
+}
+
+/* Delete Button */
+.delete-button {
+  margin-top: 1rem;
+}
